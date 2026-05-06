@@ -16,3 +16,4 @@ def greet(name: str) -> str:
     return f"Hello, {cleaned_name}!"
 
 print("Hello world")
+print("Hello world")
