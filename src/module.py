@@ -14,3 +14,5 @@ def greet(name: str) -> str:
     if not cleaned_name:
         return "Hello, guest!"
     return f"Hello, {cleaned_name}!"
+
+print("Hello world")
