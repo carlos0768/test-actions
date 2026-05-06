@@ -8,17 +8,17 @@ jobs:
   test:
     runs-on: ubuntu-latest
   
-  steps:
-    - name: Checkout repositry
-      uses: actions/checkout@v4
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Setup Python
-      uses: actions/setup-python@v5
-      with:
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
         python-version: 3.13
 
-    - name: Install Dependences
-      run: pip install -r requirements.txt
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
 
-    - name: Run Pytest
-      run: pytest
+      - name: Run Pytest
+        run: pytest
