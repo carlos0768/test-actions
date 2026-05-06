@@ -22,3 +22,7 @@ jobs:
 
       - name: Run Pytest
         run: pytest
+
+      - name: Failure Log
+        if: Failure()
+        run: echo "一つ前のstepは失敗しました"
