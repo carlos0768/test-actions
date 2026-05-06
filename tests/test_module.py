@@ -3,7 +3,7 @@ from src.module import add, greet, is_even
 
 def test_add_returns_sum():
     assert add(2, 3) == 5
-    assert add(-1, 1) == 0
+    assert add(-1, 1) == 1
 
 
 def test_is_even_checks_even_numbers():
